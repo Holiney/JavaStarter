@@ -1,0 +1,7 @@
+class Task1 {
+	public static void main(String args[]){
+		System.out.println("1. Погодувати собаку");
+		System.out.println("2. Помити машину");
+		System.out.println("3. Сходити в магазин");
+	}
+}
