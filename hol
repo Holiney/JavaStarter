@@ -1,0 +1,25 @@
+import java.util.Scanner;   
+public class hol
+{
+	public static void main(String args[])
+	{
+		String word;
+		System.out.print("введiть слово >> ");
+		Scanner inputDevice = new Scanner(System.in);
+		String vol = inputDevice.next();
+		char letter = vol.charAt(0);
+		if (letter == 'j')
+		{
+			
+			System.out.println("     " + "J" + "         " + "A" + "      " + "V" + "       " + "V" + "     " + "A");
+			System.out.println("     " + "J" + "        " + "A" + " " + "A" + "      " + "V" + "     " + "V" + "     " + "A" + " " + "A");
+			System.out.println("     " + "J" + "       " + "A" + "   " + "A" + "      " + "V" + "   " + "V" + "     " + "A" + "   " + "A");
+			System.out.println("J    " + "J" + "      " + "A" + "AAAAA" + "A" + "      " + "V" + " " + "V" + "     " + "A" + "AAAAA" + "A");
+			System.out.println("JJJJJ" + "J" + "     " + "A" + "       " + "A" + "      " + "V" + " " + "    " + "A" + "       " + "A");
+		}
+		else
+		{
+			System.out.print("Спробуйте слово java >> ");
+		}
+	}
+}
